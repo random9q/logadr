@@ -39,10 +39,10 @@ const CURRENT = resolve(HERE, "ADR-current.md");
 const HISTORY = resolve(HERE, "ADR-history.md");
 
 const CURRENT_TITLE =
-    "# qewtkttn — Architecture Decision Record (current)\n\n" +
+    "# project — Architecture Decision Record (current)\n\n" +
     "Only the latest decision per scope.  Managed by `adr.mjs` — edit via the tool.";
 const HISTORY_TITLE =
-    "# qewtkttn — Architecture Decision Record (history)\n\n" +
+    "# project — Architecture Decision Record (history)\n\n" +
     "Append-only log of every decision, superseded ones included.  Managed by `adr.mjs`.";
 
 // A scope: dot-separated segments of alphanumerics with optional internal dashes.
